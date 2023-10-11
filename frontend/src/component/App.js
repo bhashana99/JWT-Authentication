@@ -5,7 +5,7 @@ import Header from './Header'
 function App(){
     return (
         <div>
-            <Header pageTitle="Frontend authenticated with JWT" logoSrc={logo} />
+            <Header pageTitle="Frontend authenticated with JWT" className='App-logo' logoSrc={logo} />
         </div>
     )
 }
